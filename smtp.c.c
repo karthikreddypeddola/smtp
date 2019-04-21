@@ -6,7 +6,7 @@ int main(void) {
   FILE *pip;
 
   printf("sending ...\n");
-  assert(pip = popen("sendmail hermann@stamm-wilbrandt.de", "w"));
+  assert(pip = popen("karthikr381@gmail.com", "w"));
 
   fprintf(pip, "Subject: foobar\n");
 
